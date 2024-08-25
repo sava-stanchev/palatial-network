@@ -5,7 +5,7 @@ import { setFriends } from "state";
 import FlexBetween from "./FlexBetween";
 import UserImage from "./UserImage";
 import { useNavigate } from "react-router-dom";
-import { FC } from "react";
+import React, { FC } from "react";
 
 interface FriendProps {
   friendId: string;

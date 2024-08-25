@@ -21,7 +21,7 @@ import Dropzone from "react-dropzone";
 import FlexBetween from "components/FlexBetween";
 import UserImage from "components/UserImage";
 import WidgetWrapper from "components/WidgetWrapper";
-import { useState, FC } from "react";
+import React, { useState, FC } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setPosts } from "state";
 
